@@ -40,3 +40,17 @@ Each observation record tracks the following parameters:
   * `latency` (ms), `latency_band` (Low, Medium, High)
   * `congestion` (Binary flag: 0 for normal, 1 for congested)
 * **Environmental Context:** `weather` conditions (Clear, Rain, Snow, Storm)
+
+
+How query log works:
+
+1. How Query Engines Handle X and Y
+When a query log contains symbols like X or Y, the query processor or parser treats them as variables to be matched, rather than exact keys in the database.
+
+For example, when evaluating 1.hasObservation.X.weather."Rain":
+
+Find Tower: The engine looks for Tower 1.
+
+Find Observations: It follows the outgoing hasObservation edges to find all observation IDs connected to Tower 1 (e.g., observation numbers 13, 18, 50, etc.).
+
+Substitute & Filter (X): The variable X temporarily stands in for each of those observation IDs. The engine checks if weather == "Rain" for any of them. If observation 50 has weather "Rain", then X = 50 is a match.
