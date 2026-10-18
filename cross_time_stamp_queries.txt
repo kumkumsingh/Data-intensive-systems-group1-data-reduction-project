@@ -1,0 +1,6 @@
+1.hasObservation.X.weather."Rain",12.hasObservation.Y.weather."Snow"
+1.hasObservation.X.congestion."0",12.hasObservation.Y.congestion."1"
+2.hasObservation.X.users_band."High",8.hasObservation.Y.users_band."Low"
+3.hasObservation.X.latency_band."High",9.hasObservation.Y.latency_band."Low"
+4.hasObservation.X.weather."Clear",10.hasObservation.Y.weather."Storm"
+5.hasObservation.X.congestion."1",11.hasObservation.Y.congestion."0"

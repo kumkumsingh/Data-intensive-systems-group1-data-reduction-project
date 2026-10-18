@@ -1,0 +1,3 @@
+<1,timestamp,"2025-01-01 00:00:00">,<1,towerid,"1">,<1,usersconnected,"152">,<1,downloadspeed,"80.672">,<1,uploadspeed,"9.988">,<1,latency,"158.141">,<1,weather,"Clear">,<1,congestion,"0">
+<1,timestamp,"2025-01-01 00:00:00">,<1,towerid,"2">,<1,usersconnected,"465">,<1,downloadspeed,"72.891">,<1,uploadspeed,"44.197">,<1,latency,"148.95">,<1,weather,"Clear">,<1,congestion,"0">
+<1,timestamp,"2025-01-01 00:00:00">,<1,towerid,"3">,<1,usersconnected,"622">,<1,downloadspeed,"30.517">,<1,uploadspeed,"25.246">,<1,latency,"26.362">,<1,weather,"Clear">,<1,congestion,"0">
